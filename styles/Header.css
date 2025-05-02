@@ -1,0 +1,56 @@
+header {
+    padding: 30px 10%;
+    background-color: #8f2100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li,
+  a,
+  button {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .navlinks {
+    list-style: none;
+  }
+  
+  .navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .navlinks li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .navlinks li a:hover {
+    background-color: #000f64;
+    color: greenyellow;
+  }
+  
+  .login,
+  .signup {
+    padding: 9px 25px;
+    margin: 5px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .login:hover,
+  .signup:hover {
+    background-color: rgba(255, 9, 9, 0.8);
+  }
+  

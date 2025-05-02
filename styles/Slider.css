@@ -1,0 +1,31 @@
+.slimg {
+    min-height: 400px;
+    max-height: 550px;
+  }
+  
+  .car {
+    max-width: 1500px;
+  }
+  
+  .sl {
+    /* background-color: rgb(93, 3, 3); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .thumbs {
+    max-height: 100px;
+  }
+  
+  li.thumb {
+    all: unset;
+    max-height: 50px;
+  }
+  
+  .thumb > img {
+    all: unset;
+    max-height: 100px;
+    width: 50px;
+  }
+  

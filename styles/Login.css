@@ -1,0 +1,82 @@
+.mainfr {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .loginfr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px;
+    margin: 10%;
+    max-width: 30rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .loginfr > h1 {
+    font-size: 3rem;
+    color: orangered;
+  }
+  
+  .fr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 60px;
+    font-family: courier !important;
+  }
+  
+  .fr > label {
+    margin-left: 10px;
+  }
+  
+  .fr > input {
+    width: 17rem;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 10px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .buts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .loginbt {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .loginbt:hover {
+    color: black;
+    background-color: orangered;
+  }
+  
+  .regbt {
+    background: none;
+    padding: 5px;
+    border: none;
+    color: orangered;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  
+  .regbt:hover {
+    color: rgb(0, 255, 76);
+  }
+  

@@ -1,0 +1,45 @@
+.it {
+    /* max-width: 200px; */
+    min-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .it > * {
+    margin: 15px;
+  }
+  
+  .itimg {
+    max-width: 250px;
+    max-height: 200px;
+  }
+  
+  .itbt {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  
+  .itbt:hover {
+    background-color: aquamarine;
+  }
+  
+  @media screen and (min-width: 1500px) {
+    .it {
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+  }
+  

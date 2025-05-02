@@ -1,0 +1,55 @@
+.checkmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .checkup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .divider {
+    width: 70%;
+    height: 5px;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .itinfo {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  .prs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .fr > button {
+    margin-top: 30px;
+    width: 100px;
+    color: red;
+  }
+  
+  .loginbt {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .loginbt:hover {
+    color: black;
+    background-color: orangered;
+  }

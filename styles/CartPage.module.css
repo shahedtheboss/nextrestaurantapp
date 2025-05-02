@@ -1,0 +1,87 @@
+.container {
+    
+    text-align: center;
+  }
+  .header {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header div {
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+  }
+  .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .body > * {
+    flex: 1;
+  }
+  .image {
+    width: 100px;
+  }
+  .buttons > * {
+    width: 25px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .order{
+    background-color: orange;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .order > button{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    background-color: red;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .order > input {
+    width: 17rem;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 10px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  
+  .loginbt {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .loginbt:hover {
+    color: black;
+    background-color: orangered;
+  }
