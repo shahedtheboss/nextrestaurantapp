@@ -72,9 +72,9 @@ This project gave me hands-on experience building and deploying a complete full-
 
 The following video demonstrates the complete application and its functionality, including the restaurant interface, food browsing, ordering workflow, customer information handling, order management, and administrative panel.
 
-**YouTube Demo:**  
-👉 [**[PASTE YOUR YOUTUBE VIDEO LINK HERE]**](https://youtu.be/kcwOvyzgnmg)
+**YouTube Demo:**
 
+[![Restaurant & Food Ordering Application](https://i.ytimg.com/an_webp/kcwOvyzgnmg/mqdefault_6s.webp)](https://youtu.be/kcwOvyzgnmg)
 ## 🌐 Deployment
 
 The application was deployed on **Vercel**, allowing the full-stack project to be accessed through the web rather than running only on a local development environment.
